@@ -1,6 +1,6 @@
 <?php
 
-$host = "localmysql";
+$host = "localhost";
 $user = "root";
 $pass = "";
 $base = "api_php";

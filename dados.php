@@ -10,7 +10,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</head>
@@ -31,7 +31,7 @@ $mensagem = $_POST['mensagem'];
 //echo "Mensagem: $mensagem<br>";
 
 
-$result = "INSERT INTO clintes (nome, email, telefone, mensagem, created) VALUES ('$nome', '$email', '$telefone', '$mensagem', NOW())";
+$result = "INSERT INTO clientes (nome, email, telefone, mensagem, created) VALUES ('$nome', '$email', '$telefone', '$mensagem', NOW())";
 $resultUser = mysqli_query($link, $result);
 
 //if(mysqli_insert_id($link)){
@@ -54,7 +54,7 @@ if(mysqli_affected_rows($link) > 0){ ?>
                     <?php echo $nome; ?>
                 </div>
                 <div class="modal-footer">
-                    <a href="index.html"><button type="button" class="btn btn-success">Ok</button></a>
+                    <a href="index.php"><button type="button" class="btn btn-success">Ok</button></a>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@ if(mysqli_affected_rows($link) > 0){ ?>
                     <?php echo $nome; ?>
                 </div>
                 <div class="modal-footer">
-                    <a href="index.html"><button type="button" class="btn btn-danger">Ok</button></a>
+                    <a href="index.php"><button type="button" class="btn btn-danger">Ok</button></a>
                 </div>
             </div>
         </div>
