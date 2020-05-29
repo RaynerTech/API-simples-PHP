@@ -97,5 +97,17 @@
 <script type="text/javascript" script-name="berkshire-swash" src="http://use.edgefonts.net/berkshire-swash.js"></script>
 <script type="text/javascript" script-name="chicle" src="http://use.edgefonts.net/chicle.js"></script>
 <script type="text/javascript" src="js/init.js"></script>
+
+<script>
+  $(document).ready(function(){
+
+$('#modal').modal({
+  dismissible: false
+});
+$('#modal').modal('open'); 
+});
+
+</script>
+
 </body>
 </html>

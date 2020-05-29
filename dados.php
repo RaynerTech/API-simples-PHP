@@ -31,7 +31,7 @@ $mensagem = $_POST['mensagem'];
 //echo "Mensagem: $mensagem<br>";
 
 
-$result = "INSERT INTO dados (nome, email, telefone, mensagem, created) VALUES ('$nome', '$email', '$telefone', '$mensagem', NOW())";
+$result = "INSERT INTO clintes (nome, email, telefone, mensagem, created) VALUES ('$nome', '$email', '$telefone', '$mensagem', NOW())";
 $resultUser = mysqli_query($link, $result);
 
 //if(mysqli_insert_id($link)){
