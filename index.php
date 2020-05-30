@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/materialize.css">
 </head>
 <body>
+<a href="clientes.php">Clientes</a>
+
     <div id="pagina-contato" style="top:70px; position:relative;" class="container">
         <div class="section">
 
